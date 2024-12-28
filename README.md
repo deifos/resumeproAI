@@ -46,6 +46,6 @@ SUPABASE_ANON_KEY=your_key_here
 
 ### Run
 
-npm run dev
-npm run build
-npm start
+- npm run dev
+- npm run build
+- npm start
