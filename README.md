@@ -33,8 +33,8 @@ An AI-powered resume analyzer and cover letter generator that helps job seekers 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/resumepro-ai.git
-cd resumepro-ai
+git clone https://github.com/deifos/resumepro-ai.git
+cd resumeproai
 npm install
 
 NEXT_PUBLIC_APP_URL=http://localhost:3000
