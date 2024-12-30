@@ -9,6 +9,8 @@ import { LoadingState } from "@/components/LoadingState";
 import { useToast } from "@/hooks/use-toast";
 import { analyzeResume, generateCoverLetter } from "./actions";
 import JobPostingInput from "@/components/JobPostingInput";
+import Link from "next/link";
+import GithubLogo from "@/components/GithubLogo";
 
 // Update the interface to match the server response
 export interface AnalysisResponse {
@@ -96,7 +98,17 @@ export default function Home() {
 
   return (
     <>
-      <div>
+      <div className=" bg-gray-50 relative">
+        <div className="absolute top-0 right-0  bg-black">
+          <Link
+            href="https://github.com/deifos/resumeproAI"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute top-4 right-4 text-black hover:text-slate-700 transition-colors z-10"
+          >
+            <GithubLogo width={32} height={32} />
+          </Link>
+        </div>
         <div className="container py-8 max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-8">
             Resume Enhancer & Cover Letter Generator
