@@ -1,5 +1,5 @@
 # ResumePro AI 📄
-resumepro.vladpalacio.com[resumepro.vladpalacio.com]
+resumepro.vladpalacio.com[https://resumepro.vladpalacio.com]
 
 An AI-powered resume analyzer and cover letter generator that helps job seekers optimize their applications.
 
