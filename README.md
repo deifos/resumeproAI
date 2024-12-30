@@ -9,7 +9,7 @@ An AI-powered resume analyzer and cover letter generator that helps job seekers 
 - 🎯 Job Requirements Matching
 - ✍️ Automatic Cover Letter Generation
 - 💡 Smart Improvement Suggestions
-- 🔍 Job Posting Integration (URL or text)
+- 🔍 Job Posting (URL or text)
 
 ## 🛠️ Tech Stack
 
@@ -18,8 +18,7 @@ An AI-powered resume analyzer and cover letter generator that helps job seekers 
 - **AI/ML**: OpenAI GPT-4, Mixtral
 - **PDF Processing**: LangChain
 - **Web Scraping**: Firecrawl
-- **Analytics**: Microsoft Clarity
-- **Database**: Supabase
+
 
 ## 🚀 Getting Started
 
@@ -41,8 +40,7 @@ npm install
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 OPENAI_API_KEY=your_key_here
 TOGETHER_AI_KEY=your_key_here
-SUPABASE_URL=your_url_here
-SUPABASE_ANON_KEY=your_key_here
+FIRECRAWL_API_KEY=you_key_here
 ```
 
 ### Run
