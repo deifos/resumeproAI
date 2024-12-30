@@ -108,7 +108,7 @@ export default function Home() {
               <JobUrlInput
                 value={jobUrl}
                 onChange={setJobUrl}
-                isDisabled={jobPosting}
+                isDisabled={!!jobPosting}
               />
               <JobPostingInput
                 value={jobPosting}
