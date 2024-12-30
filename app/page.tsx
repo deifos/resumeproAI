@@ -108,12 +108,12 @@ export default function Home() {
               <JobUrlInput
                 value={jobUrl}
                 onChange={setJobUrl}
-                isDisabled={!!jobPosting}
+                isDisabled={jobPosting}
               />
               <JobPostingInput
                 value={jobPosting}
                 onChange={setJobPosting}
-                isDisabled={jobUrl === ""}
+                isDisabled={jobUrl.length > 0}
               />
               <Button
                 className="w-full"
